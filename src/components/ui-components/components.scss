@@ -2,20 +2,15 @@
   background-color: black;
   color: white;
 }
-.trending-cards-div .trending-cards .p-carousel .p-carousel-item {
-  display: none !important;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-}
+
 
 .trending-cards .p-carousel .p-carousel-item:nth-child(1) {
   display: none !important;
 }
 
-/* .p-carousel-indicators {
+ .p-carousel-indicators {
   display: none !important;
-} */
+} 
 
 .trending-div {
   .p-carousel-indicators {

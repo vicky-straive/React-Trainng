@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { Card } from "primereact/card";
 import { Carousel } from "primereact/carousel";
 import DialogBox from "./dialog-box";
-import data from "../../servicesess/data.json";
 import "./components.scss";
 
 function Cards() {
@@ -15,8 +14,17 @@ function Cards() {
   useEffect(() => {
     setLoading(true);
     setError(null);
-    setMovies(data);
-    setLoading(false);
+    fetch("/data.json")
+      .then((res) => {
+        if (!res.ok) throw new Error("Failed to fetch movies");
+        return res.json();
+      })
+      .then((data) => setMovies(data))
+      .catch((err) => {
+        setError(err.message);
+        setMovies([]);
+      })
+      .finally(() => setLoading(false));
   }, []);
 
   const CardsTemplate = (cardData) => {
@@ -38,7 +46,16 @@ function Cards() {
           }
         >
           <div className="flex flex-column align-items-center">
-            <span className="text-center">{cardData.title}</span>
+            <span className="text-center">
+              {(() => {
+                if (!cardData.title) return null;
+                const words = cardData.title.trim().split(/\s+/);
+                if (words.length > 15) {
+                  return words.slice(0, 15).join(" ") + "...";
+                }
+                return cardData.title;
+              })()}
+            </span>
           </div>
         </Card>
       </div>
