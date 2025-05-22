@@ -1,6 +1,7 @@
 [
     {
         "title": "Inception",
+        "trailer": "https://www.youtube.com/embed/YoHD9XEInc0?si=24yJlnJM71oT7Lqt",
         "genre": "Sci-Fi",
         "id": "1",
         "rating": "8.8",
@@ -11,6 +12,7 @@
     },
     {
         "title": "The Dark Knight",
+        "trailer": "https://www.youtube.com/embed/EXeTwQWrcwY?si=81o2fqdPD9aSae3L",
         "genre": "Action",
         "id": "2",
         "rating": "9.0",
@@ -21,6 +23,7 @@
     },
     {
         "title": "Stranger Things",
+        "trailer": "https://www.youtube.com/embed/sBEvEcpnG7k?si=9lfGxnCey3DEhOzi",
         "genre": "Drama",
         "id": "3",
         "rating": "8.7",
@@ -31,6 +34,7 @@
     },
     {
         "title": "The Matrix",
+        "trailer": "https://www.youtube.com/embed/m8e-FF8MsqU?si=wZtw7cvOHqt_1JaW",
         "genre": "Sci-Fi",
         "id": "4",
         "rating": "8.7",
@@ -41,6 +45,7 @@
     },
     {
         "title": "Breaking Bad",
+        "trailer": "https://www.youtube.com/embed/1JLUn2DFW4w?si=uotUpHkqdFziAEEb",
         "genre": "Crime",
         "id": "5",
         "rating": "9.5",
@@ -51,6 +56,7 @@
     },
     {
         "title": "Avengers: Endgame",
+        "trailer": "https://www.youtube.com/embed/hA6hldpSTF8?si=XgeJJHd-t6RY61w-",
         "genre": "Action",
         "id": "6",
         "rating": "8.4",
@@ -61,6 +67,7 @@
     },
     {
         "title": "Interstellar",
+        "trailer": "https://www.youtube.com/embed/zSWdZVtXT7E?si=a2wwnEOlngo4j1aF",
         "genre": "Sci-Fi",
         "id": "7",
         "rating": "8.6",
@@ -71,6 +78,7 @@
     },
     {
         "title": "Game of Thrones",
+        "trailer": "https://www.youtube.com/embed/KPLWWIOCOOQ?si=9G0hN-XNYuY6oprM",
         "genre": "Fantasy",
         "id": "8",
         "rating": "9.3",
@@ -81,6 +89,7 @@
     },
     {
         "title": "The Godfather",
+        "trailer": "https://www.youtube.com/embed/UaVTIH8mujA?si=ybOzCnLRboq0V2NA",
         "genre": "Crime",
         "id": "9",
         "rating": "9.2",
@@ -91,6 +100,7 @@
     },
     {
         "title": "The Shawshank Redemption",
+        "trailer": "https://www.youtube.com/embed/PLl99DlL6b4?si=D5mFjZKcwjLEvMTb",
         "genre": "Drama",
         "id": "10",
         "rating": "9.3",
@@ -101,6 +111,7 @@
     },
     {
         "title": "Pulp Fiction",
+        "trailer": "https://www.youtube.com/embed/s7EdQ4FqbhY?si=MCyzt1grERNcMELK",
         "genre": "Crime",
         "id": "11",
         "rating": "8.9",
@@ -110,7 +121,8 @@
         "cast": ["John Travolta", "Uma Thurman", "Samuel L. Jackson"]
     },
     {
-        "title": "The Lord of the Rings: The Fellowship of the Ring",
+        "title": "The Lord of the Rings",
+        "trailer": "https://www.youtube.com/embed/aStYWD25fAQ?si=mqYuid2Q687jatjB",
         "genre": "Fantasy",
         "id": "12",
         "rating": "8.8",
@@ -121,6 +133,7 @@
     },
     {
         "title": "The Lion King",
+        "trailer": "https://www.youtube.com/embed/7TavVZMewpY?si=dj_TAlO6BIhRpVrl",
         "genre": "Animation",
         "id": "13",
         "rating": "8.5",
@@ -131,6 +144,7 @@
     },
     {
         "title": "Forrest Gump",
+        "trailer": "https://www.youtube.com/embed/Mj9IA9tTfio?si=UOaBinWp5CWA0aeq",
         "genre": "Drama",
         "id": "14",
         "rating": "8.8",
@@ -141,6 +155,7 @@
     },
     {
         "title": "The Avengers",
+        "trailer": "https://www.youtube.com/embed/eOrNdBpGMv8?si=l2D05rIps5Q9jkJx",
         "genre": "Action",
         "id": "15",
         "rating": "8.0",
@@ -151,6 +166,7 @@
     },
     {
         "title": "The Witcher",
+        "trailer": "https://www.youtube.com/embed/ndl1W4ltcmg?si=LTvq6BtcFh6aM9_e",
         "genre": "Fantasy",
         "id": "16",
         "rating": "8.2",
@@ -161,6 +177,7 @@
     },
     {
         "title": "Black Panther",
+        "trailer": "https://www.youtube.com/embed/xjDjIWPwcPU?si=47XDRSje06geML85",
         "genre": "Action",
         "id": "17",
         "rating": "7.3",
@@ -171,6 +188,7 @@
     },
     {
         "title": "Joker",
+        "trailer": "https://www.youtube.com/embed/zAGVQLHvwOY?si=8reJWev3TXhRzDN6",
         "genre": "Drama",
         "id": "18",
         "rating": "8.4",
@@ -181,6 +199,7 @@
     },
     {
         "title": "The Mandalorian",
+        "trailer": "https://www.youtube.com/embed/aOC8E8z_ifw?si=2tKIQPtqq2cWdvSH",
         "genre": "Sci-Fi",
         "id": "19",
         "rating": "8.7",
@@ -191,6 +210,7 @@
     },
     {
         "title": "Frozen",
+        "trailer": "https://www.youtube.com/embed/TbQm5doF_Uc?si=D50oUYh4uJpfO0dG",
         "genre": "Animation",
         "id": "20",
         "rating": "7.4",
